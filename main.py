@@ -13,7 +13,6 @@ async def my_event_handler(event):
     print("new event")
     if "حماس" in event.raw_text or "غزة" in event.raw_text or "فلسطين" in event.raw_text or "فلسطيني" in event.raw_text or "فلسطينيين" in event.raw_text or "فلسطينيون" in event.raw_text or "الموطن الفلسطيني" in event.raw_text or "وطنية" in event.raw_text or "قطاع غزة" in event.raw_text or "أزمة" in event.raw_text or "حصار" in event.raw_text or "جهاد" in event.raw_text or "جهاد اسلامي فلسطيني" in event.raw_text or "اسلام" in event.raw_text:
             print("Posted from shehabtelegram")
-            await client.send_message('alshabakia', event.raw_text)
             await client.send_message('CPLleaks', event.raw_text)
 
 @client.on(events.NewMessage(chats="gazanewsnow"))
@@ -29,7 +28,6 @@ async def my_event_handler(event):
     print("new event")
     if "حماس" in event.raw_text or "غزة" in event.raw_text or "فلسطين" in event.raw_text or "فلسطيني" in event.raw_text or "فلسطينيين" in event.raw_text or "فلسطينيون" in event.raw_text or "الموطن الفلسطيني" in event.raw_text or "وطنية" in event.raw_text or "قطاع غزة" in event.raw_text or "أزمة" in event.raw_text or "حصار" in event.raw_text or "جهاد" in event.raw_text or "جهاد اسلامي فلسطيني" in event.raw_text or "اسلام" in event.raw_text:
             print("Posted from khnmedia")
-            await client.send_message('alshabakia', event.raw_text)
             await client.send_message('CPLleaks', event.raw_text)
 
 @client.on(events.NewMessage(chats="ajanews"))
@@ -37,7 +35,6 @@ async def my_event_handler(event):
     print("new event")
     if "حماس" in event.raw_text or "غزة" in event.raw_text or "فلسطين" in event.raw_text or "فلسطيني" in event.raw_text or "فلسطينيين" in event.raw_text or "فلسطينيون" in event.raw_text or "الموطن الفلسطيني" in event.raw_text or "وطنية" in event.raw_text or "قطاع غزة" in event.raw_text or "أزمة" in event.raw_text or "حصار" in event.raw_text or "جهاد" in event.raw_text or "جهاد اسلامي فلسطيني" in event.raw_text or "اسلام" in event.raw_text:
             print("Posted from ajanews")
-            await client.send_message('alshabakia', event.raw_text)
             await client.send_message('CPLleaks', event.raw_text)
 
 @client.on(events.NewMessage(chats="gazaalannet"))
@@ -45,7 +42,6 @@ async def my_event_handler(event):
     print("new event")
     if "حماس" in event.raw_text or "غزة" in event.raw_text or "فلسطين" in event.raw_text or "فلسطيني" in event.raw_text or "فلسطينيين" in event.raw_text or "فلسطينيون" in event.raw_text or "الموطن الفلسطيني" in event.raw_text or "وطنية" in event.raw_text or "قطاع غزة" in event.raw_text or "أزمة" in event.raw_text or "حصار" in event.raw_text or "جهاد" in event.raw_text or "جهاد اسلامي فلسطيني" in event.raw_text or "اسلام" in event.raw_text:
             print("Posted from gazaalannet")
-            await client.send_message('alshabakia', event.raw_text)
             await client.send_message('CPLleaks', event.raw_text)
 
 
